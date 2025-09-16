@@ -5,7 +5,7 @@ Repositório criado para atividade da disciplina Teste de Software 2025_02
 
 ## 1. Membros do grupo
 - Estevão
-- João Gilberto
+- João Gilberto Pereira Monteiro Vaz
 - Lucas Fernandes Santos
 - Renato
 
