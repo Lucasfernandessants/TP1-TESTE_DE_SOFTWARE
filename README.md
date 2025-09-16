@@ -24,7 +24,6 @@ Nosso objetivo principal não é apenas a construção da aplicação, mas demon
 
 ## 3. Possíveis tecnologias utilizadas
 - **Linguagem de programação:** JavaScript ou Python 
-- **Front-end:** HTML, CSS e JavaScript
-- **Banco de dados:** SQLite ou PostgreSQL  
+- **Front-end:** HTML, CSS e JavaScript  
 - **Testes automatizados:** Playwright  
 - **Controle de versão:** Git e GitHub  
