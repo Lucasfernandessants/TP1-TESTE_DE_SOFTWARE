@@ -4,7 +4,7 @@ Repositório criado para atividade da disciplina Teste de Software 2025_02
 # Atividade 
 
 ## 1. Membros do grupo
-- Estevão
+- Estevão Felipe da Fonseca
 - João Gilberto Pereira Monteiro Vaz
 - Lucas Fernandes Santos
 - Renato
