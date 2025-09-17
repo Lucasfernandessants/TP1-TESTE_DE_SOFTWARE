@@ -7,7 +7,7 @@ Repositório criado para atividade da disciplina Teste de Software 2025_02
 - Estevão Felipe da Fonseca
 - João Gilberto Pereira Monteiro Vaz
 - Lucas Fernandes Santos
-- Renato
+- Renato Gabino Diniz
 
 ## 2. Explicação do sistema
 O projeto consiste em uma aplicação web simples desenvolvida com foco em servir de base para a prática de testes de software.  
