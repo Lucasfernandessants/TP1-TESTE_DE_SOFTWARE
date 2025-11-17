@@ -46,7 +46,7 @@ header {
 
 header .container {
   display: flex;
-  justify-content: space-between;
+  gap: 0;
   align-items: center;
 }
 
@@ -62,10 +62,15 @@ header ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 header li {
   margin-left: 20px;
+}
+
+header nav {
+  flex-grow: 1;
 }
 
 header #branding h1 {
@@ -181,7 +186,7 @@ form textarea {
 }
 
 form button {
-  width: 100%;
+  width: 20%;
   padding: 10px;
   background: #333;
   color: #fff;
@@ -202,4 +207,49 @@ form button:hover {
 .edit-post-form input,
 .edit-post-form textarea {
   margin-top: 0.7rem;
+}
+
+header li.search-item {
+  flex-grow: 1;
+  margin-left: 20px; 
+}
+
+.search-form {
+  display: flex;
+  width: 100%; 
+}
+
+.search-form label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.search-form input[type="search"] {
+  flex-grow: 1;      
+  font-size: 16px;
+  padding: 10px 15px; 
+  border: none;
+  border-radius: 5px 0 0 5px; 
+}
+
+.search-form button {
+  flex-grow: 0;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #333; 
+  color: white;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0; 
+}
+
+.search-form button:hover {
+  background: #77aaff;
 }

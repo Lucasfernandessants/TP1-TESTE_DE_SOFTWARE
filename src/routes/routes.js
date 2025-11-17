@@ -6,10 +6,13 @@ import {
 import { getPost } from "../controllers/getPost.controller.js";
 import { getEditPost, editPost } from "../controllers/editPost.controller.js";
 import { deletePost } from "../controllers/deletePost.controller.js";
+import { searchPost } from "../controllers/searchPost.controller.js";
 import errorHandler from "../middleware/error.js";
 
 export default async function routes(fastify, options) {
   fastify.get("/", getRoot);
+
+  fastify.get("/search", searchPost);
 
   fastify.register(
     async function (postRoutes) {
