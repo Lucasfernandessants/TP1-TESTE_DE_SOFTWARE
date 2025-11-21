@@ -1,4 +1,4 @@
-import { sum } from './root.controller.js';
+import { sum } from '../controllers/root.controller.js';
 
 test('should return the correct sum', () => {
     expect(sum(1, 2)).toBe(3);
