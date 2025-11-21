@@ -17,6 +17,28 @@
   </li>
   <% }) %>
 </ul>
+<nav class="pagination">
+
+  <% if (totalPages > 1) { %>
+    <ul>
+      
+      <% for (let i = 1; i <= totalPages; i++) { %>
+        
+        <% let url = ""; %>
+        <% if (searchQuery) { %>
+          <% url = `/search?q=${searchQuery}&page=${i}`; %>
+        <% } else { %>
+          <% url = `/?page=${i}`; %>
+        <% } %>
+
+        <li class="page-item <%= i === currentPage ? 'active' : '' %>">
+          <a href="<%= url %>"><%= i %></a>
+        </li>
+        
+      <% } %>
+    </ul>
+  <% } %>
+</nav>
 <% } else { %>
 <p>There are no blog posts yet. Why not <a href="/post/new">create one</a>?</p>
 <% } %>

@@ -253,3 +253,38 @@ header li.search-item {
 .search-form button:hover {
   background: #77aaff;
 }
+
+.pagination {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pagination ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 5px; 
+}
+
+.pagination li a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #03a9f4; 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.pagination li.active a {
+  background-color: #03a9f4;
+  color: #fff;
+  border-color: #03a9f4;
+}
+
+.pagination li a:hover:not(.active) {
+  background-color: #f4f4f4;
+}
