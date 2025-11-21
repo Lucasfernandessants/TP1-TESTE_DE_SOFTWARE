@@ -15,6 +15,18 @@
         </div>
         <nav>
           <ul>
+            <li class="search-item"><form action="/search" method="GET" class="search-form">
+              <label for="search-input">Search Post:</label>
+              <input 
+                type="search" 
+                id="search-input" 
+                name="q" 
+                placeholder="Look for title..."
+                value="<%= locals.searchQuery || '' %>"
+                >
+              <button type="submit">Explore</button>
+            </form>  
+            </li>
             <li><a href="/">Home</a></li>
             <li><a href="/post/new">Create New Post</a></li>
           </ul>
