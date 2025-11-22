@@ -1,0 +1,4 @@
+Os testes de integração:
+"Should update a post and redirect to the new slug" retorna 500 ou 302, varia.
+O mesmo para "should create a post with special characters in title" e,
+"should create a new post and redirect to home"
