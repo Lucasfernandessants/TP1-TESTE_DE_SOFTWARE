@@ -1,5 +1,5 @@
 import { describe, test, expect, jest } from '@jest/globals';
-import { searchPost } from '../controllers/searchPost.controller.js';
+import { searchPost } from '../src/controllers/searchPost.controller.js';
 
 describe('searchPost Controller', () => {
     test('deve buscar posts quando query for fornecida', () => {
