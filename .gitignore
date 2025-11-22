@@ -131,3 +131,6 @@ dist
 
 #Zone_Identifier
 **/*Zone.Identifier
+
+# Banco de dados
+*.db
