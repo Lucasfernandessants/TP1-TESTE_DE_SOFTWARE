@@ -1,4 +1,4 @@
-import { sum, getRoot } from '../src/controllers/root.controller.js';
+import { sum, getRoot } from '../../src/controllers/root.controller.js';
 import { jest } from '@jest/globals';
 
 describe('getRoot Controller', () => {
