@@ -92,3 +92,4 @@ O servidor estará disponível em `http://localhost:3000`
 ### Objetivo do Projeto
 
 O objetivo principal não é apenas a construção da aplicação, mas demonstrar como a implementação de testes auxilia na manutenção, evolução e confiabilidade de sistemas de software, aplicando diferentes tipos de testes (unitários e de integração) em um projeto real.
+
