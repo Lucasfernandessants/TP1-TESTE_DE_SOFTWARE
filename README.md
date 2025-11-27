@@ -1,4 +1,4 @@
-# TP1-TESTE_DE_SOFTWARE
+# blog
 Repositório criado para atividade da disciplina Teste de Software 2025_02
 
 ## Membros do grupo
@@ -68,7 +68,7 @@ tests/
 1. **Clone o repositório e instale as dependências:**
 ```bash
 git clone <url-do-repositorio>
-cd TP1-TESTE_DE_SOFTWARE
+cd blog
 npm install
 ```
 
