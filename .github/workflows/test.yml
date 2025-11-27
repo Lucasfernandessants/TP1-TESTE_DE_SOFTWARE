@@ -54,4 +54,3 @@ jobs:
           slug: lucasfernandessants/Blog
           fail_ci_if_error: true
           verbose: true
-          max_report_age: off
