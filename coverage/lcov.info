@@ -1,5 +1,5 @@
 TN:
-SF:src/app.js
+SF:src\app.js
 FN:20,(anonymous_0)
 FN:25,(anonymous_1)
 FN:29,(anonymous_2)
@@ -41,7 +41,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/config/db.js
+SF:src\config\db.js
 FN:5,dbConnector
 FN:21,(anonymous_1)
 FNF:2
@@ -64,7 +64,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:src/config/env.js
+SF:src\config\env.js
 FNF:0
 FNH:0
 DA:4,1
@@ -76,7 +76,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/config/logger.js
+SF:src\config\logger.js
 FNF:0
 FNH:0
 DA:4,1
@@ -88,7 +88,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:src/controllers/createPost.controller.js
+SF:src\controllers\createPost.controller.js
 FN:23,getNewPost
 FN:27,createPost
 FNF:2
@@ -116,7 +116,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:src/controllers/deletePost.controller.js
+SF:src\controllers\deletePost.controller.js
 FN:1,deletePost
 FNF:1
 FNH:1
@@ -132,7 +132,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/controllers/editPost.controller.js
+SF:src\controllers\editPost.controller.js
 FN:3,getEditPost
 FN:15,editPost
 FNF:2
@@ -160,7 +160,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:src/controllers/getPost.controller.js
+SF:src\controllers\getPost.controller.js
 FN:1,getPost
 FNF:1
 FNH:1
@@ -179,7 +179,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:src/controllers/root.controller.js
+SF:src\controllers\root.controller.js
 FN:3,getRoot
 FN:26,sum
 FNF:2
@@ -206,7 +206,7 @@ BRF:4
 BRH:4
 end_of_record
 TN:
-SF:src/controllers/searchPost.controller.js
+SF:src\controllers\searchPost.controller.js
 FN:3,searchPost
 FNF:1
 FNH:1
@@ -243,7 +243,7 @@ BRF:6
 BRH:6
 end_of_record
 TN:
-SF:src/middleware/error.js
+SF:src\middleware\error.js
 FN:3,errorHandler
 FNF:1
 FNH:1
@@ -265,7 +265,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:src/routes/routes.js
+SF:src\routes\routes.js
 FN:12,routes
 FN:18,(anonymous_1)
 FNF:2
